@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.punchtv" name="[COLOR white][B]PUNCH[/B][/COLOR] [COLOR red]TV[/COLOR] [COLOR white][B]STUDIOS[/B][/COLOR]" version="1.0" provider-name="[COLOR white]www.punchtvstudios.com[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests"   version="2.6.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Punch TV Studios Inc.</summary>
+    <description lang="en">Punch TV Studios Inc. engages in the networking, producing, distributing, licensing, merchandising and syndication of media products. </description>
+    <language>en</language>
+    <platform>all</platform>
+    <website>www.punchtvstudios.com</website>
+  </extension>
+</addon>
